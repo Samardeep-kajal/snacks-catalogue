@@ -341,7 +341,7 @@ const Cart = () => {
         </DialogContent>
       </Dialog>
 
-      {/* Clear Cart Confirmation Dialog */}
+      {/* Clear Cart Confirmation Dialog Inbuild */} 
       <Dialog open={clearCartDialogOpen} onOpenChange={setClearCartDialogOpen}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
